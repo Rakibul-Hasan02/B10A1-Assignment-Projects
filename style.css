@@ -1,7 +1,133 @@
-.navbar{
+.navbar {
     max-width: 1240px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 
+}
+
+.banner {
+    background-image: url(./assets/Hero-bg.png);
+    background: ;
+    width: 1440px;
+    height: 600px;
+    text-align: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+
+.btn1 {
+    border: 1px solid black;
+    width: 208px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+
+.main {
+    width: 1000px;
+    margin: auto;
+
+
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+}
+
+
+
+
+
+
+
+.main01 {
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+
+.wwd {
+    text-align: center;
+}
+
+.oo {
+
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.wwd1 {
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+
+
+}
+
+.Rakib {
+    text-decoration: underline;
+}
+
+.Mahtab {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#current1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 20px;
+}
+
+#current2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 20px;
+}
+
+#current3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+}
+
+/* .design1{
+    display: flex;
+    justify-content: space-between;
+
+} */
+.last {
+   
+    background-image: url(./assets/handshake.jpg);
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    width: 1140;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
